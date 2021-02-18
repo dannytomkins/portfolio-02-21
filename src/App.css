@@ -1,0 +1,36 @@
+:root {
+    --shadow: rgba(0, 0, 0, 0.65);
+    --light-brown: rgb(168, 138, 99);
+    --brown: rgb(92, 74, 51);
+    --white: rgb(232, 233, 221);
+    --transparent: rgba(255, 255, 255, 0.1);
+    --blue: rgb(79, 62, 233);
+}
+
+body {
+    padding-top: 60px;
+    background-color: grey;
+}
+
+.main-container {
+    background-color: white;
+}
+
+.content-container {
+    background-color: white;
+    outline-color: violet;
+    outline-width: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.title {
+    text-align: center;
+    color: red;
+}
+
+.portfoliocard {
+    background-color: rgb(131, 0, 0);
+    color: white;
+    
+}
