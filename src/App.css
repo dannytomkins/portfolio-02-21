@@ -17,12 +17,12 @@ body {
 }
 
 .content-container {
+    color: darkmagenta;
     background-color: white;
     outline-color: violet;
     outline-width: 5px;
     padding: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 20px;
 }
 .title {
     text-align: center;

@@ -2,14 +2,14 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row'
 
 
-function Aboutme() {
+function Padding() {
 
   return (
     <Container id="about-me" class="content-container">
     <div class id="about-me" class="content-container">
       <div class="row">
         <div class="col-lg-12 title">
-          <h1>About Me</h1>
+          <h1>Padding</h1>
         </div>
       </div>
 
@@ -44,4 +44,4 @@ function Aboutme() {
 
 }
 
-export default Aboutme;
+export default Padding;
