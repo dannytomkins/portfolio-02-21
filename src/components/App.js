@@ -1,28 +1,29 @@
 import '../App.css';
-//import './Navbanner';
+// import Navbanner from './Navbanner';
 
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
-import Aboutme from './Aboutme';
+import {portfolioItems} from '../data/portfolioItems'
+
+
+import About from './About';
 import Portfolio from './Portfolio';
-import Padding from './Padding';
+import Contact from './Contact'
+
+// import {
+//   BrowserRouter as Router,
+//   Route,
+//   Link,
+//   Switch
+// } from "react-router-dom";
 
 function App() {
   return (
     <div>
-    <Navbar fixed="top" bg="dark" variant="dark">
-      <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-      <Nav className="mr-auto">
-        <Nav.Link href="#about-me">About Me</Nav.Link>
-        <Nav.Link href="#portfolio">Portfolio</Nav.Link>
-        <Nav.Link href="#pricing">Pricing</Nav.Link>
-      </Nav>
-    </Navbar>
-    <Aboutme />
-    <Padding />
-    <Portfolio />
-    <Padding />
-    <Padding />
+    <About />
+    <Portfolio 
+    portfolioItems={portfolioItems}
+    />
+    <Contact />
+
     </div>
     );
 }

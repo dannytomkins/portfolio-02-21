@@ -9,28 +9,79 @@
 
 body {
     padding-top: 60px;
-    background-color: grey;
+    background: rgb(80,80,100);
+    background: linear-gradient(140deg, rgba(80,80,100,1) 0%, rgba(0,0,50,1) 50%, rgba(0,0,36,1) 100%);
 }
+/*
+.nav {
+    flex: 1
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111111;
+}
+ */
+
 
 .main-container {
     background-color: white;
 }
 
-.content-container {
+.mainitem {
     color: darkmagenta;
     background-color: white;
-    outline-color: violet;
-    outline-width: 5px;
+    border: 5px solid violet;
     padding: 20px;
     margin: 20px;
 }
-.title {
+
+.mainitem h2 {
     text-align: center;
-    color: red;
+}
+
+.portfoliocardholder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .portfoliocard {
     background-color: rgb(131, 0, 0);
     color: white;
+    border: 5px solid violet;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
     
+    
+}
+
+.portfoliocard:hover {
+    border: 5px solid blue;
+
+}
+
+.block-title {
+    text-align: center;
+    color: red;
 }

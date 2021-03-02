@@ -1,53 +1,27 @@
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
+import PortfolioCard from "./PortfolioCard"
+
+import Dinnerandashow300 from '../img/Dinnerandashow300.jpg'
 
 
-function Portfolio() {
-
+function Portfolio(props) {
+    const allCards = props.portfolioItems.map(item => {
+        return (
+        <PortfolioCard
+        id={item.id}
+        name={item.name}
+        description={item.description}
+        img={item.img}
+        deployedlink={item.deployedlink}
+        codelink={item.codelink}
+        />
+    )})
     return (
-        <Container id="portfolio" class="content-container">
-                  <div id="portfolio" class="row">
-        <div class="col-lg-12 title">
-          <h1>Portfolio</h1>
+        <div class="mainitem">
+            <h2>Portfolio</h2>
+            <div class="portfoliocardholder">
+                {allCards}
+            </div>
         </div>
-      </div>
-            <Row>
-                <Col sm = {4}>
-                    <div class="card">
-                        <img src="../public/img/Dinnerandashow300.jpg" class="card-img-top" alt="..." />
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-                            {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
-                        </div>
-                    </div>
-                </Col>
-                <Col sm = {4}>
-                    <div class="card">
-                        <img src="../public/img/Dinnerandashow300.jpg" class="card-img-top" alt="..." />
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-                            {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
-                        </div>
-                    </div>
-                </Col>
-                <Col sm = {4}>
-                    <div class="card">
-                        <img src="../public/img/Dinnerandashow300.jpg" class="card-img-top" alt="..." />
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-                            {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
-                        </div>
-                    </div>
-                </Col>
-            </Row>
-        </Container>
     )
 
 }
