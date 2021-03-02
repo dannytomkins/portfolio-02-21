@@ -1,9 +1,8 @@
 import '../App.css';
-// import Navbanner from './Navbanner';
 
 import {portfolioItems} from '../data/portfolioItems'
 
-
+import Header from './Header';
 import About from './About';
 import Portfolio from './Portfolio';
 import Contact from './Contact'
@@ -18,6 +17,7 @@ import Contact from './Contact'
 function App() {
   return (
     <div>
+    <Header />
     <About />
     <Portfolio 
     portfolioItems={portfolioItems}

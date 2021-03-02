@@ -12,12 +12,13 @@ body {
     background: rgb(80,80,100);
     background: linear-gradient(140deg, rgba(80,80,100,1) 0%, rgba(0,0,50,1) 50%, rgba(0,0,36,1) 100%);
 }
-/*
+
 .nav {
-    flex: 1
+    flex: 1;
+    position: fixed;
 }
 
-nav ul {
+.nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -25,11 +26,11 @@ nav ul {
     background-color: #333333;
 }
 
-nav li {
+.nav li {
     float: left;
 }
 
-nav li a {
+.nav li a {
     display: block;
     color: white;
     text-align: center;
@@ -37,10 +38,10 @@ nav li a {
     text-decoration: none;
 }
 
-nav li a:hover {
+.nav li a:hover {
     background-color: #111111;
 }
- */
+
 
 
 .main-container {
@@ -51,6 +52,7 @@ nav li a:hover {
     color: darkmagenta;
     background-color: white;
     border: 5px solid violet;
+    scroll-padding-top: 60px;
     padding: 20px;
     margin: 20px;
 }
