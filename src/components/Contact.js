@@ -15,6 +15,9 @@ function Contact() {
         <li>
         <a href="https://github.com/niceynice" target="_blank">GITHUB</a>
         </li>
+        <li>
+        <a href="https://github.com/niceynice" target="_blank">RESUME</a>
+        </li>
         </div>
     )
 }
