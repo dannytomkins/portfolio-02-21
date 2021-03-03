@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio-02-21/static/css/main.d7c1c777.chunk.css",
+    "main.js": "/portfolio-02-21/static/js/main.96a31106.chunk.js",
+    "main.js.map": "/portfolio-02-21/static/js/main.96a31106.chunk.js.map",
+    "runtime-main.js": "/portfolio-02-21/static/js/runtime-main.f3d2fd89.js",
+    "runtime-main.js.map": "/portfolio-02-21/static/js/runtime-main.f3d2fd89.js.map",
+    "static/js/2.e9495ba3.chunk.js": "/portfolio-02-21/static/js/2.e9495ba3.chunk.js",
+    "static/js/2.e9495ba3.chunk.js.map": "/portfolio-02-21/static/js/2.e9495ba3.chunk.js.map",
+    "static/js/3.67143bdb.chunk.js": "/portfolio-02-21/static/js/3.67143bdb.chunk.js",
+    "static/js/3.67143bdb.chunk.js.map": "/portfolio-02-21/static/js/3.67143bdb.chunk.js.map",
+    "index.html": "/portfolio-02-21/index.html",
+    "static/css/main.d7c1c777.chunk.css.map": "/portfolio-02-21/static/css/main.d7c1c777.chunk.css.map",
+    "static/js/2.e9495ba3.chunk.js.LICENSE.txt": "/portfolio-02-21/static/js/2.e9495ba3.chunk.js.LICENSE.txt",
+    "static/media/Dinnerandashow300.313d5540.jpg": "/portfolio-02-21/static/media/Dinnerandashow300.313d5540.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f3d2fd89.js",
+    "static/js/2.e9495ba3.chunk.js",
+    "static/css/main.d7c1c777.chunk.css",
+    "static/js/main.96a31106.chunk.js"
+  ]
+}
