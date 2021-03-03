@@ -1,6 +1,10 @@
 import PortfolioCard from "./PortfolioCard"
-
-import Dinnerandashow300 from '../img/Dinnerandashow300.jpg'
+// import {
+//     Route,
+//     Link,
+//     NavLink,
+//     useRouteMatch
+// } from "react-router-dom";
 
 
 function Portfolio(props) {
