@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio-02-21/static/css/main.d7c1c777.chunk.css",
-    "main.js": "/portfolio-02-21/static/js/main.96a31106.chunk.js",
-    "main.js.map": "/portfolio-02-21/static/js/main.96a31106.chunk.js.map",
-    "runtime-main.js": "/portfolio-02-21/static/js/runtime-main.f3d2fd89.js",
-    "runtime-main.js.map": "/portfolio-02-21/static/js/runtime-main.f3d2fd89.js.map",
-    "static/js/2.e9495ba3.chunk.js": "/portfolio-02-21/static/js/2.e9495ba3.chunk.js",
-    "static/js/2.e9495ba3.chunk.js.map": "/portfolio-02-21/static/js/2.e9495ba3.chunk.js.map",
-    "static/js/3.67143bdb.chunk.js": "/portfolio-02-21/static/js/3.67143bdb.chunk.js",
-    "static/js/3.67143bdb.chunk.js.map": "/portfolio-02-21/static/js/3.67143bdb.chunk.js.map",
+    "main.css": "/portfolio-02-21/static/css/main.b1078d78.chunk.css",
+    "main.js": "/portfolio-02-21/static/js/main.9866172c.chunk.js",
+    "main.js.map": "/portfolio-02-21/static/js/main.9866172c.chunk.js.map",
+    "runtime-main.js": "/portfolio-02-21/static/js/runtime-main.54acf6b5.js",
+    "runtime-main.js.map": "/portfolio-02-21/static/js/runtime-main.54acf6b5.js.map",
+    "static/js/2.2a6ec8d1.chunk.js": "/portfolio-02-21/static/js/2.2a6ec8d1.chunk.js",
+    "static/js/2.2a6ec8d1.chunk.js.map": "/portfolio-02-21/static/js/2.2a6ec8d1.chunk.js.map",
+    "static/js/3.cb7b7b8e.chunk.js": "/portfolio-02-21/static/js/3.cb7b7b8e.chunk.js",
+    "static/js/3.cb7b7b8e.chunk.js.map": "/portfolio-02-21/static/js/3.cb7b7b8e.chunk.js.map",
     "index.html": "/portfolio-02-21/index.html",
-    "static/css/main.d7c1c777.chunk.css.map": "/portfolio-02-21/static/css/main.d7c1c777.chunk.css.map",
-    "static/js/2.e9495ba3.chunk.js.LICENSE.txt": "/portfolio-02-21/static/js/2.e9495ba3.chunk.js.LICENSE.txt",
-    "static/media/Dinnerandashow300.313d5540.jpg": "/portfolio-02-21/static/media/Dinnerandashow300.313d5540.jpg"
+    "static/css/main.b1078d78.chunk.css.map": "/portfolio-02-21/static/css/main.b1078d78.chunk.css.map",
+    "static/js/2.2a6ec8d1.chunk.js.LICENSE.txt": "/portfolio-02-21/static/js/2.2a6ec8d1.chunk.js.LICENSE.txt",
+    "static/media/dinnerandashow300.313d5540.jpg": "/portfolio-02-21/static/media/dinnerandashow300.313d5540.jpg",
+    "static/media/peopledirectory300.91908e2c.jpg": "/portfolio-02-21/static/media/peopledirectory300.91908e2c.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f3d2fd89.js",
-    "static/js/2.e9495ba3.chunk.js",
-    "static/css/main.d7c1c777.chunk.css",
-    "static/js/main.96a31106.chunk.js"
+    "static/js/runtime-main.54acf6b5.js",
+    "static/js/2.2a6ec8d1.chunk.js",
+    "static/css/main.b1078d78.chunk.css",
+    "static/js/main.9866172c.chunk.js"
   ]
 }
