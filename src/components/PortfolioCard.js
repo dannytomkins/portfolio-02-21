@@ -19,8 +19,9 @@ function PortfolioCard(props) {
                 <h4>{props.name}</h4>
                 <p>{props.description}</p>
                 <p>{props.language}</p>
-                <p>{props.deployedlink}</p>
-                <p>{props.codelink}</p>
+                <a href={props.deployedlink} target="_blank">DEPLOYED</a>
+                <br />
+                <a href={props.codelink} target="_blank">GITHUB</a>
             </Modal>
         </div>
     )
