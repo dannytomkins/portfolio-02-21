@@ -1,10 +1,4 @@
 import PortfolioCard from "./PortfolioCard"
-// import {
-//     Route,
-//     Link,
-//     NavLink,
-//     useRouteMatch
-// } from "react-router-dom";
 
 
 function Portfolio(props) {

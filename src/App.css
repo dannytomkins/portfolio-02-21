@@ -83,16 +83,23 @@ body {
     width: 300px;
     padding: 10px;
     margin: 10px;
-    
-    
 }
 
 .portfoliocard:hover {
     border: 5px solid blue;
-
 }
 
-.block-title {
-    text-align: center;
-    color: red;
+ .buttonwrapperstyle {
+  position: 'relative';
+  z-index: 1
+}
+
+ .othercontentstyle {
+  position: 'relative';
+  z-index: 2;
+  color:rgb(232, 233, 221);
+  border: 5px solid green;
+  border-radius: 10px;
+  background-color: red;
+  padding: '10px'
 }
