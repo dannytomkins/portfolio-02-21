@@ -7,6 +7,8 @@ function Portfolio(props) {
         <PortfolioCard
         id={item.id}
         name={item.name}
+        language={item.language}
+        tech={item.tech}
         description={item.description}
         img={item.img}
         deployedlink={item.deployedlink}

@@ -15,7 +15,13 @@ function PortfolioCard(props) {
             <button onClick={() => setIsOpen(true)}>Open Modal</button>
             <Modal open={isOpen} onClose={() => setIsOpen(false)}>
                 Fancy Modal
-    </Modal>
+                <img src={props.img}></img>
+                <h4>{props.name}</h4>
+                <p>{props.description}</p>
+                <p>{props.language}</p>
+                <p>{props.deployedlink}</p>
+                <p>{props.codelink}</p>
+            </Modal>
         </div>
     )
 }

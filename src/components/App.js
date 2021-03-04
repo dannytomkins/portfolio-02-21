@@ -19,13 +19,6 @@ function App() {
     <Portfolio 
     portfolioItems={portfolioItems}
     />
-    
-    {/* PORTAL TEST */}
-    <div class="buttonwrapperstyle">
-    </div>
-    <div class="othercontentstyle">Other Content</div>
-    {/* {PORTAL TEST END} */}
-
     <Contact />
     </div>
     );
