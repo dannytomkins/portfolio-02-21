@@ -1,5 +1,8 @@
 import peopledirectory300img from "../img/peopledirectory300.jpg"
+import pantry300 from "../img/pantry300.jpg"
 import dinnerandashow300img from "../img/dinnerandashow300.jpg"
+import fitnesstracker300img from "../img/fitnesstracker300.jpg"
+
 
 export const portfolioItems = [
 {
@@ -18,7 +21,7 @@ export const portfolioItems = [
     language: ["JS", "HTML", "CSS", "SQL"],
     tech: ["jQuery", "Bulma", "Materialize", "Spoonacular API"], 
     description: "Ever stuck with a bunch of ingredients but not sure what you can cook? Pantry brings recipes from your personal pantry to your fingertips.",
-    img: dinnerandashow300img, 
+    img: pantry300, 
     deployedlink: "https://pantry-group5.herokuapp.com/",
     codelink: "https://github.com/NW-Group-5/5-Dollar-Idea"
 },
@@ -34,7 +37,7 @@ export const portfolioItems = [
 },
 {
     id: 4,
-    name: "Dinner and a Show",
+    name: "Filler Item",
     language: ["JS", "HTML", "CSS"],
     tech: ["jQuery", "Bulma", "Materialize", "TVMaze API", "Zomato API"],
     description: "Stuck inside? Bored? Quarantine got you down? Dinner and a Show is an app designed for our current lifestyle of seeking food and immediate entertainment. Enter your city and it will display the top restaurants in your area and the perfect tv show related to that cuisine!",
@@ -44,7 +47,7 @@ export const portfolioItems = [
 },
 {
     id: 5,
-    name: "Dinner and a Show",
+    name: "Filler Item",
     language: ["JS", "HTML", "CSS"],
     tech: ["jQuery", "Bulma", "Materialize", "TVMaze API", "Zomato API"],
     description: "Stuck inside? Bored? Quarantine got you down? Dinner and a Show is an app designed for our current lifestyle of seeking food and immediate entertainment. Enter your city and it will display the top restaurants in your area and the perfect tv show related to that cuisine!",
@@ -58,7 +61,7 @@ export const portfolioItems = [
     language: ["JS", "HTML", "CSS"],
     tech: ["Mongo", "MongoDB Atlas", "Heroku"],
     description: "Fitness Tracker",
-    img: dinnerandashow300img,
+    img: fitnesstracker300img,
     deployedlink: "https://pure-garden-02648.herokuapp.com/?id=60245bce72ca820015b6c5f2",
     codelink: "https://github.com/niceynice/17-NoSQL-Workout-Tracker"
 },
