@@ -7,13 +7,15 @@ import Modal from './Modal'
 function PortfolioCard(props) {
     const [isOpen, setIsOpen] = useState(false)
 
+    
     return (
-        <div class="portfoliocard">
+        <>
+        <div class="portfoliocard" onClick={() => setIsOpen(true)}>
             <img src={props.img}></img>
             <h4>{props.name}</h4>
             <p>{props.description}</p>
-            <button onClick={() => setIsOpen(true)}>Open Modal</button>
-            <Modal open={isOpen} onClose={() => setIsOpen(false)}>
+        </div>
+        <Modal open={isOpen} onClose={() => setIsOpen(false)}>
                 Fancy Modal
                 <br />
                 <img src={props.img}></img>
@@ -24,7 +26,7 @@ function PortfolioCard(props) {
                 <br />
                 <a href={props.codelink} target="_blank">GITHUB</a>
             </Modal>
-        </div>
+        </>
     )
 }
 

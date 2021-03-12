@@ -1,21 +1,41 @@
 :root {
     --shadow: rgba(0, 0, 0, 0.65);
-    --light-brown: rgb(168, 138, 99);
-    --brown: rgb(92, 74, 51);
-    --white: rgb(232, 233, 221);
-    --transparent: rgba(255, 255, 255, 0.1);
-    --blue: rgb(79, 62, 233);
 }
 
 html {
-    scroll-padding-top: 60px
+    /* scroll-padding-top: 60px */
 }
 
 body {
-    margin-top: 60px;
-    scroll-padding-top: 60px;
+    /* margin-top: 60px;
+    scroll-padding-top: 60px; */
     background: rgb(80,80,100);
     background: linear-gradient(140deg, rgba(80,80,100,1) 0%, rgba(0,0,50,1) 50%, rgba(0,0,36,1) 100%);
+    background-attachment: fixed;
+}
+
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
+li {
+    list-style-type: none;
 }
 
 .nav {
@@ -24,6 +44,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 5;
 }
 
 .nav ul {
@@ -50,24 +71,135 @@ body {
     background-color: #111111;
 }
 
-
-
-.main-container {
-    background-color: white;
-}
-
 .mainitem {
+    opacity: 1;
     color: white;
     background: rgb(0,88,176);
     background: linear-gradient(140deg, rgba(0,88,176,1) 0%, rgba(0,0,128,1) 50%, rgba(0,0,32,1) 100%);
-    border-radius: 10px;
-    border: 5px solid white;
     padding: 20px;
     margin: 20px;
+    z-index: 3;
 }
 
 .mainitem h2 {
     text-align: center;
+}
+
+.mainitem-2 {
+    opacity: 1;
+    color: white;
+    /* background: rgb(0,88,176);
+    background: linear-gradient(140deg, rgba(0,88,176,1) 0%, rgba(0,0,128,1) 50%, rgba(0,0,32,1) 100%); */
+    padding: 20px;
+    margin: 20px;
+    z-index: 3;
+}
+
+.mainitem-2 h2 {
+    text-align: center;
+}
+
+/* desktop view */
+@media only screen and (min-width: 992px) {
+    #about {
+        height: 88vh;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }  
+
+    .about-images {
+        width: 35%;
+        height: auto;
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .about-text {
+        padding: 10px;
+        width: 45%
+    }
+    
+    #portrait {
+        display: block;
+        width: 100%;
+        height: auto;
+        border-radius: 50%;
+        padding: 10px
+    }
+
+    .thumbnail {
+        display: block;
+        width: 50px;
+        height: auto;
+        padding: 10px
+    }
+
+    .thumbnail:hover {
+        transform: scale(1.1)
+    }
+}
+
+/* mobile view */
+@media only screen and (max-width: 991px) {
+    #about {
+        height: 88vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }  
+
+    .about-images {
+        width: 65%;
+        height: auto;
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .about-text {
+        width: 75%;
+        padding: 10px;
+    }
+    
+    #portrait {
+        display: block;
+        width: 100%;
+        height: auto;
+        border-radius: 50%;
+        padding: 10px
+    }
+
+    .thumbnail {
+        display: block;
+        width: 25px;
+        height: auto;
+        padding: 10px
+    }
+
+    .thumbnail:hover {
+        transform: scale(1.1)
+    }
+}
+
+
+.skilllistholder {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* flex-flow: column wrap; */
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.skilllistholder li {
+    padding: 10px;
+    margin: 10px;
+    font-size: 22px;
 }
 
 .portfoliocardholder {
@@ -77,18 +209,23 @@ body {
 }
 
 .portfoliocard {
-    background: rgb(0,88,176);
-    background: linear-gradient(140deg, rgba(0,88,176,1) 0%, rgba(0,0,128,1) 50%, rgba(0,0,32,1) 100%);;
+    background: rgb(80,80,100);
+    background: linear-gradient(140deg, rgba(80,80,100,1) 0%, rgba(0,0,50,1) 50%, rgba(0,0,36,1) 100%);
+    /* background: rgb(0,88,176); */
+    /* background: linear-gradient(140deg, rgba(0,88,176,1) 0%, rgba(0,0,128,1) 50%, rgba(0,0,32,1) 100%);; */
+    opacity: 1;
     color: white;
-    border: 5px solid white;
+    /* border: 5px solid white; */
     border-radius: 10px;
     width: 300px;
     padding: 10px;
     margin: 10px;
+    transition: all .2s ease-in-out;
+    cursor: pointer
 }
 
 .portfoliocard:hover {
-    border: 5px solid blue;
+    transform: scale(1.05)
 }
 
 .bigportfoliocard {

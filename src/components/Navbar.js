@@ -6,7 +6,7 @@
 // } from "react-router-dom";
 
 
-function Header() {
+function Navbar() {
   return (
     <div class="nav">
       <ul>
@@ -20,4 +20,4 @@ function Header() {
   
 }
 
-export default Header;
+export default Navbar;
