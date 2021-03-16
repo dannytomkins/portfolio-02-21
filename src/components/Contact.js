@@ -1,6 +1,6 @@
-function Contact() {
+function Contact(props) {
     return (
-        <div id="contact" class="mainitem">
+        <div id="contact" class="mainitem-2">
             <h2>
                 Contact
             </h2>
@@ -8,16 +8,8 @@ function Contact() {
         <a href="mailto:tomkinsdan@gmail.com">EMAIL</a>
 
         </li>
-        <li>
-        <a href="https://www.linkedin.com/in/dannytomkins/" target="_blank">LINKEDIN</a>
-
-        </li>
-        <li>
-        <a href="https://github.com/niceynice" target="_blank">GITHUB</a>
-        </li>
-        <li>
-        <a href="https://github.com/niceynice" target="_blank">RESUME</a>
-        </li>
+        <a href={props.aboutItems.githubLink} target="_blank"><img src={props.aboutItems.githubImg} class="thumbnail"/></a>
+        <a href={props.aboutItems.linkedinLink} target="_blank"><img src={props.aboutItems.linkedinImg} class="thumbnail"/></a>
         </div>
     )
 }

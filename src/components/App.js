@@ -26,7 +26,9 @@ function App() {
     <Portfolio 
     portfolioItems={portfolioItems}
     />
-    <Contact />
+    <Contact
+    aboutItems={aboutItems}
+    />
     </div>
     );
 }
