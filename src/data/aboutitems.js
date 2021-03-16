@@ -13,5 +13,4 @@ export const aboutItems =
         githubLink: "https://github.com/niceynice",
         linkedinImg: linkedin256,
         linkedinLink: "https://www.linkedin.com/in/dannytomkins/"
-
     }

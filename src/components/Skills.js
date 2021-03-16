@@ -4,7 +4,7 @@ function Skills() {
             <h2>
                 What I can do
             </h2>
-            <div class="skilllistholder">
+            <ul>
                 <li>
                     JavaScript
                 </li>
@@ -50,7 +50,7 @@ function Skills() {
                 <li>
                     JavaScript
                 </li>
-            </div>
+            </ul>
         </div>
     )
 }

@@ -34,8 +34,20 @@ a:link {
     color: blue;
   }
 
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* flex-flow: column wrap; */
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 li {
     list-style-type: none;
+    padding: 10px;
+    margin: 10px;
+    font-size: 22px;
 }
 
 .nav {
@@ -178,27 +190,19 @@ li {
         display: block;
         width: 25px;
         height: auto;
-        padding: 10px
+        padding: 10px;
+        transition: all .2s ease-in-out;
     }
 
     .thumbnail:hover {
-        transform: scale(1.1)
+        transform: scale(1.1);
     }
 }
 
 
-.skilllistholder {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    /* flex-flow: column wrap; */
-    justify-content: space-evenly;
-    align-items: center;
-}
 
-.skilllistholder li {
-    padding: 10px;
-    margin: 10px;
+
+#skills li {
     font-size: 22px;
 }
 
@@ -224,6 +228,10 @@ li {
     cursor: pointer
 }
 
+.portfoliocard h4 {
+    text-align: center;
+}
+
 .portfoliocard:hover {
     transform: scale(1.05)
 }
@@ -238,7 +246,22 @@ li {
     color: white;
     border: 5px solid white;
     border-radius: 10px;    padding: 50px;
-    z-index: 1000
+    z-index: 1000;
+}
+
+.bigportfoliocard img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bigportfoliocard h4 {
+    text-align: center;
+}
+
+.bigportfoliocard li {
+    padding: 10px;
+    margin: 10px;
 }
 
  .buttonwrapperstyle {
