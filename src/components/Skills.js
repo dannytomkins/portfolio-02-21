@@ -24,31 +24,22 @@ function Skills() {
                     Git
                 </li>
                 <li>
-                    Heroku
+                    Express.js
                 </li>
                 <li>
                     ORM - Sequelize, Mongoose
                 </li>
                 <li>
-                    JavaScript
+                    MySQL
                 </li>
                 <li>
-                    JavaScript
+                    MongoDB
                 </li>
                 <li>
-                    Adobe Creative Cloud
+                    Heroku
                 </li>
                 <li>
-                    JavaScript
-                </li>
-                <li>
-                    JavaScript
-                </li>
-                <li>
-                    JavaScript
-                </li>
-                <li>
-                    JavaScript
+                    Adobe Cretive Cloud
                 </li>
             </ul>
         </div>

@@ -47,7 +47,6 @@ li {
     list-style-type: none;
     padding: 10px;
     margin: 10px;
-    font-size: 22px;
 }
 
 .nav {
@@ -199,9 +198,6 @@ li {
     }
 }
 
-
-
-
 #skills li {
     font-size: 22px;
 }
@@ -241,18 +237,57 @@ li {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    max-height: 80%;
+    max-width: 80%;
     background: rgb(0,88,176);
     background: linear-gradient(140deg, rgba(0,88,176,1) 0%, rgba(0,0,128,1) 50%, rgba(0,0,32,1) 100%);;
     color: white;
     border: 5px solid white;
     border-radius: 10px;    padding: 50px;
+    overflow: scroll;
     z-index: 1000;
 }
 
-.bigportfoliocard img{
+#close-button {
+    top: 0;
+    right: 0;
+    position: absolute;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    width: 25px;
+    height: auto;
+    padding: 10px;
+    transition: all .2s ease-in-out;
+    cursor: pointer
+}
+
+#close-button:hover {
+    transform: scale(1.1)
+}
+
+#contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* desktop */
+@media only screen and (min-width: 992px) {
+    .bigportfoliocard img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* mobile */
+@media only screen and (max-width: 991px) {
+.bigportfoliocard img{
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 .bigportfoliocard h4 {
@@ -262,21 +297,6 @@ li {
 .bigportfoliocard li {
     padding: 10px;
     margin: 10px;
-}
-
- .buttonwrapperstyle {
-  position: relative;
-  z-index: 1
-}
-
- .othercontentstyle {
-  position: 'relative';
-  z-index: 2;
-  color:rgb(232, 233, 221);
-  border: 5px solid green;
-  border-radius: 10px;
-  background-color: red;
-  padding: '10px'
 }
 
 .ffvii {

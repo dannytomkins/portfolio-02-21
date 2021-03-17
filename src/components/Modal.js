@@ -1,6 +1,8 @@
 import React from 'react'
 import ReactDom from 'react-dom'
 
+import close256img from '../img/close256.png'
+
 const OVERLAY_STYLE = {
     position: 'fixed',
     top: 0,
@@ -20,7 +22,7 @@ export default function Modal({open, children, onClose}) {
         <>
         <div style={OVERLAY_STYLE} onClick={onClose}/>
         <div class="bigportfoliocard">
-            <button onClick={onClose}>Close Modal</button>
+            <img src={close256img} id="close-button" onClick={onClose}/>
             {children}
         </div>
         </>,

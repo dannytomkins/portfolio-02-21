@@ -26,7 +26,7 @@ function PortfolioCard(props) {
             <p>{props.description}</p>
         </div>
         <Modal open={isOpen} onClose={() => setIsOpen(false)}>
-                Fancy Modal
+                {/* Fancy Modal */}
                 <br />
                 <img src={props.img}></img>
                 <h4>{props.name}</h4>
