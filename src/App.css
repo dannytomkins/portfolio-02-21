@@ -225,7 +225,7 @@ li {
 #close-button {
     top: 0;
     right: 0;
-    position: absolute;
+    position: fixed;
     display: block;
     width: 25px;
     height: auto;

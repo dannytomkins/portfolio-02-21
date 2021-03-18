@@ -13,8 +13,9 @@ export const portfolioItems = [
     tech: ["React", "Bootstrap", "Random User Generator API"],
     description: "A people directory with sorting and searching functionality.",
     img: peopledirectory300img,
+    deployedlinkImg: github120img,
     deployedlink: "https://niceynice.github.io/19-React-Homework-Employee-Directory/",
-    githubImg: github120img,
+    codelinkImg: github120img,
     codelink: "https://github.com/niceynice/19-React-Homework-Employee-Directory"
 },
 {
@@ -25,7 +26,7 @@ export const portfolioItems = [
     description: "Ever stuck with a bunch of ingredients but not sure what you can cook? Pantry brings recipes from your personal pantry to your fingertips.",
     img: pantry300, 
     deployedlink: "https://pantry-group5.herokuapp.com/",
-    githubImg: github120img,
+    codelinkImg: github120img,
     codelink: "https://github.com/NW-Group-5/5-Dollar-Idea"
 },
 {
@@ -36,7 +37,7 @@ export const portfolioItems = [
     description: "Stuck inside? Bored? Quarantine got you down? Dinner and a Show is an app designed for our current lifestyle of seeking food and immediate entertainment. Enter your city and it will display the top restaurants in your area and the perfect tv show related to that cuisine!",
     img: dinnerandashow300img,
     deployedlink: "https://group-6-project-1.github.io/Dinner-and-a-show/",
-    githubImg: github120img,
+    codelinkImg: github120img,
     codelink: "https://github.com/group-6-project-1/Dinner-and-a-show"
 },
 {
@@ -47,7 +48,7 @@ export const portfolioItems = [
     description: "Stuck inside? Bored? Quarantine got you down? Dinner and a Show is an app designed for our current lifestyle of seeking food and immediate entertainment. Enter your city and it will display the top restaurants in your area and the perfect tv show related to that cuisine!",
     img: dinnerandashow300img,
     deployedlink: "https://group-6-project-1.github.io/Dinner-and-a-show/",
-    githubImg: github120img,
+    codelinkImg: github120img,
     codelink: "https://github.com/group-6-project-1/Dinner-and-a-show"
 },
 {
@@ -58,7 +59,7 @@ export const portfolioItems = [
     description: "Stuck inside? Bored? Quarantine got you down? Dinner and a Show is an app designed for our current lifestyle of seeking food and immediate entertainment. Enter your city and it will display the top restaurants in your area and the perfect tv show related to that cuisine!",
     img: dinnerandashow300img,
     deployedlink: "https://group-6-project-1.github.io/Dinner-and-a-show/",
-    githubImg: github120img,
+    codelinkImg: github120img,
     codelink: "https://github.com/group-6-project-1/Dinner-and-a-show"
 },
 {
@@ -69,7 +70,7 @@ export const portfolioItems = [
     description: "Fitness Tracker",
     img: fitnesstracker300img,
     deployedlink: "https://pure-garden-02648.herokuapp.com/?id=60245bce72ca820015b6c5f2",
-    githubImg: github120img,
+    codelinkImg: github120img,
     codelink: "https://github.com/niceynice/17-NoSQL-Workout-Tracker"
 },
 ]
