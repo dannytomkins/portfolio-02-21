@@ -18,7 +18,7 @@ function Skills() {
                     Bootstrap
                 </li>
                 <li>
-                    Node
+                    Node.js
                 </li>
                 <li>
                     Git
@@ -39,7 +39,7 @@ function Skills() {
                     Heroku
                 </li>
                 <li>
-                    Adobe Cretive Cloud
+                    Adobe Creative Cloud
                 </li>
             </ul>
         </div>

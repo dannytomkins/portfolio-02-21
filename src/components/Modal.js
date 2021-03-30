@@ -22,8 +22,12 @@ export default function Modal({open, children, onClose}) {
         <>
         <div style={OVERLAY_STYLE} onClick={onClose}/>
         <div class="bigportfoliocard">
+            <header class="card-header">
             <img src={close256img} id="close-button" onClick={onClose}/>
+            </header>
+            <div class="card-body">
             {children}
+            </div>
         </div>
         </>,
         document.getElementById("portal")

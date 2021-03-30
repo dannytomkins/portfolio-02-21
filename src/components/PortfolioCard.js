@@ -4,9 +4,11 @@ import React, { useState } from 'react'
 import Modal from './Modal'
 
 
+
+
 function PortfolioCard(props) {
     const [isOpen, setIsOpen] = useState(false)
-
+    
     const languageList = props.language.map(language => {
         return (
                 <li>{language}</li>

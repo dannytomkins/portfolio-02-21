@@ -2,6 +2,8 @@ import peopledirectory300img from "../img/peopledirectory300.jpg"
 import pantry300 from "../img/pantry300.jpg"
 import dinnerandashow300img from "../img/dinnerandashow300.jpg"
 import fitnesstracker300img from "../img/fitnesstracker300.jpg"
+import brewhopper300img from "../img/brewhopper300.jpg"
+import merngooglebooks300img from "../img/merngooglebooks300.jpg"
 import github120img from "../img/github120.png"
 
 
@@ -22,7 +24,7 @@ export const portfolioItems = [
     id: 2,
     name: "Pantry",
     language: ["JS", "HTML", "CSS", "SQL"],
-    tech: ["jQuery", "Bulma", "Materialize", "Spoonacular API"], 
+    tech: ["jQuery", "Node.js", "Express", "Sequelize", "Passport.js", "Bulma", "Materialize", "Spoonacular API"], 
     description: "Ever stuck with a bunch of ingredients but not sure what you can cook? Pantry brings recipes from your personal pantry to your fingertips.",
     img: pantry300, 
     deployedlink: "https://pantry-group5.herokuapp.com/",
@@ -31,6 +33,17 @@ export const portfolioItems = [
 },
 {
     id: 3,
+    name: "Brew Hopper",
+    language: ["JS", "HTML", "CSS"],
+    tech: ["React", "Node.js", "Express", "Sequelize", "Passport.js", "Axios", "Material-UI", "Open Brewery DB"],
+    description: "Welcome to Brew Hopper, The app that lets you plan a brewery crawl by searching your city or a city you want to visit. Just sign up, Login, search a city and let Brew Hopper do the rest! Brew Hopper utilizes the Open Brewery DB API to find a brewery near you!",
+    img: brewhopper300img,
+    deployedlink: "https://brew-hopper-5.herokuapp.com/",
+    codelinkImg: github120img,
+    codelink: "https://github.com/Final-App/trail-blazer"
+},
+{
+    id: 4,
     name: "Dinner and a Show",
     language: ["JS", "HTML", "CSS"],
     tech: ["jQuery", "Bulma", "Materialize", "TVMaze API", "Zomato API"],
@@ -41,26 +54,15 @@ export const portfolioItems = [
     codelink: "https://github.com/group-6-project-1/Dinner-and-a-show"
 },
 {
-    id: 4,
-    name: "Filler Item",
-    language: ["JS", "HTML", "CSS"],
-    tech: ["jQuery", "Bulma", "Materialize", "TVMaze API", "Zomato API"],
-    description: "Stuck inside? Bored? Quarantine got you down? Dinner and a Show is an app designed for our current lifestyle of seeking food and immediate entertainment. Enter your city and it will display the top restaurants in your area and the perfect tv show related to that cuisine!",
-    img: dinnerandashow300img,
-    deployedlink: "https://group-6-project-1.github.io/Dinner-and-a-show/",
-    codelinkImg: github120img,
-    codelink: "https://github.com/group-6-project-1/Dinner-and-a-show"
-},
-{
     id: 5,
-    name: "Filler Item",
+    name: "MERN Google Books Search",
     language: ["JS", "HTML", "CSS"],
-    tech: ["jQuery", "Bulma", "Materialize", "TVMaze API", "Zomato API"],
-    description: "Stuck inside? Bored? Quarantine got you down? Dinner and a Show is an app designed for our current lifestyle of seeking food and immediate entertainment. Enter your city and it will display the top restaurants in your area and the perfect tv show related to that cuisine!",
-    img: dinnerandashow300img,
-    deployedlink: "https://group-6-project-1.github.io/Dinner-and-a-show/",
+    tech: ["React", "Bootsrap", "Axios", "Google Books API"],
+    description: "Search for books and select your favorites on this MERN Stack application!",
+    img: merngooglebooks300img,
+    deployedlink: "https://boiling-mesa-68358.herokuapp.com/",
     codelinkImg: github120img,
-    codelink: "https://github.com/group-6-project-1/Dinner-and-a-show"
+    codelink: "https://github.com/niceynice/mern-google-books-search"
 },
 {
     id: 6,
