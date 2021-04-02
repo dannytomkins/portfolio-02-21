@@ -14,9 +14,6 @@ function About(props) {
           <br/>
           {props.aboutItems.intro2}
         </h1>
-        <h3>
-          information about yourself, work, experience, approach, skills, and courses.
-    </h3>
 
       </div>
     </div>

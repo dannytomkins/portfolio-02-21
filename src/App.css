@@ -175,12 +175,9 @@ a:link {
     }
 
     .about-text h1 {
-        font-size: 5vw;
+        font-size: 8vw;
     }
 
-    .about-text h3 {
-        font-size: 3.5vw;
-    }
     
     #portrait {
         display: block;

@@ -17,7 +17,7 @@ function Portfolio(props) {
     )})
     return (
         <div id="portfolio" class="mainitem">
-            <h2>Portfolio</h2>
+            <h2>Work</h2>
             <div class="portfoliocardholder">
                 {allCards}
             </div>
