@@ -113,8 +113,10 @@ a:link {
     
     #portrait {
         object-fit: contain;
+        flex-basis: auto;
         max-width: 100%;
         height: auto;
+        align-self: flex-start;
         border-radius: 50%;
         padding: 10px
     }
@@ -179,8 +181,10 @@ a:link {
     
     #portrait {
         object-fit: contain;
-        /* max-width: 100%; */
-        /* height: auto; */
+        flex-basis: auto;
+        max-width: 100%;
+        height: auto;
+        align-self: flex-start;
         border-radius: 50%;
         padding: 10px
     }
