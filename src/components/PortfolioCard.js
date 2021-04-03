@@ -31,13 +31,20 @@ function PortfolioCard(props) {
                 {/* Fancy Modal */}
                 <br />
                 <img src={props.img}></img>
-                <h4>{props.name}</h4>
+                <h3>{props.name}</h3>
                 <p>{props.description}</p>
+                <br/>
+                <h4>Tech used:</h4>
                 <ul>{languageList}</ul>
                 <ul>{techList}</ul>
-                <a href={props.deployedlink} target="_blank">DEPLOYED</a>
-                <br />
-                <a href={props.codelink} target="_blank">GITHUB</a>
+                <ul>
+                    <li>
+                    <a href={props.deployedlink} target="_blank">Check it out!</a>
+                    </li>
+                    <li>
+                    <a href={props.codelink} target="_blank">Or check out the code on GitHub!</a>
+                    </li>
+                </ul>
             </Modal>
         </>
     )
