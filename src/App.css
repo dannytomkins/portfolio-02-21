@@ -1,14 +1,7 @@
-html {
-    /* scroll-padding-top: 60px */
-}
-
 body {
-    /* margin-top: 60px;
-    scroll-padding-top: 60px; */
     background: rgb(80,80,100);
     background: linear-gradient(140deg, rgba(80,80,100,1) 0%, rgba(0,0,50,1) 50%, rgba(0,0,36,1) 100%);
     background-attachment: fixed;
-    /* font-family: 'Titillium Web', sans-serif */
 }
 
 /* unvisited link */
@@ -119,7 +112,6 @@ a:link {
     }
     
     #portrait {
-        display: block;
         object-fit: contain;
         max-width: 100%;
         height: auto;
@@ -186,7 +178,6 @@ a:link {
 
     
     #portrait {
-        display: block;
         object-fit: contain;
         max-width: 100%;
         height: auto;
