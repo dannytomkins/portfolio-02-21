@@ -120,6 +120,7 @@ a:link {
     
     #portrait {
         display: block;
+        object-fit: contain;
         max-width: 100%;
         height: auto;
         border-radius: 50%;
@@ -186,6 +187,7 @@ a:link {
     
     #portrait {
         display: block;
+        object-fit: contain;
         max-width: 100%;
         height: auto;
         border-radius: 50%;
