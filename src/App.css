@@ -77,8 +77,6 @@ a:link {
 .mainitem-2 {
     opacity: 1;
     color: white;
-    /* background: rgb(0,88,176);
-    background: linear-gradient(140deg, rgba(0,88,176,1) 0%, rgba(0,0,128,1) 50%, rgba(0,0,32,1) 100%); */
     padding: 20px;
     margin: 20px;
     z-index: 3;
@@ -252,14 +250,66 @@ a:link {
 }
 
 .card-header {
+    position: sticky;
     width: 100%;
+    background-color: black;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    position: relative;
+    overflow: scroll;
+}
+
+.carditem {
+    color: white;
+    background: rgb(255, 255, 255, 0.15);
+    padding: 20px;
+    /* margin: 20px; */
+    width: 100%;
+    align-self: center;
+}
+
+.carditem h2 {
+    text-align: center;
+}
+
+.carditem p {
+    margin: 20px;
+}
+
+.carditem-2 {
+    opacity: 1;
+    color: white;
+    /* background: rgb(0,88,176);
+    background: linear-gradient(140deg, rgba(0,88,176,1) 0%, rgba(0,0,128,1) 50%, rgba(0,0,32,1) 100%); */
+    padding: 20px;
+    /* margin: 20px; */
+    width: 100%;
+    align-self: center;
+}
+
+.carditem-2 h2 {
+    text-align: center;
+}
+
+.carditem p {
+    margin: 20px;
+}
+
+#card-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #close-button {
-    top: 0;
-    right: 0;
-    position: fixed;
-    display: block;
+    /* top: 0;
+    right: 0; */
+    /* position: fixed; */
+    /* display: block; */
     width: 25px;
     height: auto;
     padding: 10px;
@@ -276,6 +326,9 @@ a:link {
 /* desktop */
 @media only screen and (min-width: 992px) {
     .bigportfoliocard {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         position: fixed;
         top: 50%;
         left: 50%;
@@ -287,8 +340,7 @@ a:link {
         color: white;
         border: 5px solid white;
         border-radius: 10px;
-        padding: 50px;
-        overflow: scroll;
+        overflow: hidden;
         z-index: 1000;
     }
     
@@ -310,18 +362,14 @@ a:link {
         list-style-type: none;
         padding: 8px;
     }
-
-    
-    .bigportfoliocard img{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
 }
 
 /* mobile */
 @media only screen and (max-width: 991px) {
     .bigportfoliocard {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         position: fixed;
         top: 50%;
         left: 50%;
@@ -334,16 +382,9 @@ a:link {
         color: white;
         border: 5px solid white;
         border-radius: 10px;
-        padding: 10px;
-        overflow: scroll;
+        /* padding: 10px; */
+        overflow: hidden;
         z-index: 1000;
-    }
-    
-    .bigportfoliocard img{
-        width: 100%;
-        height: auto;
-        margin-left: auto;
-        margin-right: auto;
     }
 
     .bigportfoliocard h3, h4 {

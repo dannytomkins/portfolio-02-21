@@ -29,14 +29,19 @@ function PortfolioCard(props) {
         </div>
         <Modal open={isOpen} onClose={() => setIsOpen(false)}>
                 {/* Fancy Modal */}
-                <br />
-                <img src={props.img}></img>
-                <h3>{props.name}</h3>
-                <p>{props.description}</p>
-                <br/>
+                <div class="carditem-2">
+                    <img src={props.img} id="card-img"></img>
+                </div>
+                <div class="carditem">
+                    <h3>{props.name}</h3>
+                    <p>{props.description}</p>
+                </div>
+                <div class="carditem-2">
                 <h4>Tech used:</h4>
                 <ul>{languageList}</ul>
                 <ul>{techList}</ul>
+                </div>
+                <div class="carditem">
                 <ul>
                     <li>
                     <a href={props.deployedlink} target="_blank">Check it out!</a>
@@ -45,6 +50,7 @@ function PortfolioCard(props) {
                     <a href={props.codelink} target="_blank">Or check out the code on GitHub!</a>
                     </li>
                 </ul>
+                </div>
             </Modal>
         </>
     )
