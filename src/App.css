@@ -273,10 +273,10 @@ a:link {
 }
 
 #close-button {
-    /* top: 0;
-    right: 0; */
-    /* position: fixed; */
-    /* display: block; */
+    top: 0;
+    right: 0;
+    position: fixed;
+    display: inline-block;
     width: 25px;
     height: auto;
     padding: 10px;
