@@ -219,7 +219,7 @@ a:link {
 .card-header {
     position: sticky;
     width: 100%;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .card-body {

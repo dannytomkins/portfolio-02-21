@@ -3,6 +3,9 @@ import React, { useState } from 'react'
 
 import Modal from './Modal'
 
+import close256img from '../img/close256.png'
+
+
 
 
 
@@ -27,8 +30,9 @@ function PortfolioCard(props) {
             <h4>{props.name}</h4>
             <p>{props.description}</p>
         </div>
-        <Modal open={isOpen} onClose={() => setIsOpen(false)}>
+        <Modal props={props} open={isOpen} onClose={() => setIsOpen(false)}>
                 {/* Fancy Modal */}
+                <div class="card-body">
                 <div class="carditem-2">
                     <img src={props.img} id="card-img"></img>
                 </div>
@@ -51,6 +55,8 @@ function PortfolioCard(props) {
                     </li>
                 </ul>
                 </div>
+                </div>
+
             </Modal>
         </>
     )

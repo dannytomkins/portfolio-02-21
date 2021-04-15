@@ -15,7 +15,7 @@ const OVERLAY_STYLE = {
 }
 
 
-export default function Modal({open, children, onClose}) {
+export default function Modal({props, open, children, onClose}) {
     if (!open) return null
     
     return ReactDom.createPortal(
@@ -23,11 +23,11 @@ export default function Modal({open, children, onClose}) {
         <div style={OVERLAY_STYLE} onClick={onClose}/>
         <div class="bigportfoliocard">
             <header class="card-header">
-            <img src={close256img} id="close-button" onClick={onClose}/>
+                <h3>{props.name}</h3>
+                <img src={close256img} id="close-button" onClick={onClose}/>
             </header>
-            <div class="card-body">
             {children}
-            </div>
+        
         </div>
         </>,
         document.getElementById("portal")
