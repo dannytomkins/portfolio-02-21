@@ -48,10 +48,10 @@ function PortfolioCard(props) {
                 <div class="carditem">
                 <ul>
                     <li>
-                    <a href={props.deployedlink} target="_blank">Check it out!</a>
+                    <a href={props.deployedlink} target="_blank"><button>Check it out!</button></a>
                     </li>
                     <li>
-                    <a href={props.codelink} target="_blank">Or check out the code on GitHub!</a>
+                    <a href={props.codelink} target="_blank"><button>Or check out the code on GitHub!</button></a>
                     </li>
                 </ul>
                 </div>
