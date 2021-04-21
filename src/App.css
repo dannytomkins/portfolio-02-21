@@ -232,7 +232,7 @@ a:link {
 
 .carditem {
     color: white;
-    background: rgb(255, 255, 255, 0.15);
+    background: rgb(255, 255, 255, 0.1);
     padding: 20px;
     /* margin: 20px; */
     width: 100%;
@@ -248,8 +248,8 @@ a:link {
 }
 
 .carditem-2 {
-    opacity: 1;
     color: white;
+    background: rgb(255, 255, 255, 0.05);
     /* background: rgb(0,88,176);
     background: linear-gradient(140deg, rgba(0,88,176,1) 0%, rgba(0,0,128,1) 50%, rgba(0,0,32,1) 100%); */
     padding: 20px;
