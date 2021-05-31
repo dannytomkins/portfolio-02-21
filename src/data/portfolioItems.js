@@ -10,18 +10,6 @@ import github120img from "../img/github120.png"
 export const portfolioItems = [
 {
     id: 1,
-    name: "People Directory",
-    language: ["JS", "HTML", "CSS"],
-    tech: ["React", "Bootstrap", "Random User Generator API"],
-    description: "A people directory with sorting and searching functionality.",
-    img: peopledirectory300img,
-    deployedlinkImg: github120img,
-    deployedlink: "https://niceynice.github.io/19-React-Homework-Employee-Directory/",
-    codelinkImg: github120img,
-    codelink: "https://github.com/niceynice/19-React-Homework-Employee-Directory"
-},
-{
-    id: 2,
     name: "Pantry",
     language: ["JS", "HTML", "CSS", "SQL"],
     tech: ["jQuery", "Node.js", "Express", "Sequelize", "Passport.js", "Bulma", "Materialize", "Spoonacular API"], 
@@ -32,7 +20,7 @@ export const portfolioItems = [
     codelink: "https://github.com/NW-Group-5/5-Dollar-Idea"
 },
 {
-    id: 3,
+    id: 2,
     name: "Brew Hopper",
     language: ["JS", "HTML", "CSS"],
     tech: ["React", "Node.js", "Express", "Sequelize", "Passport.js", "Axios", "Material-UI", "Open Brewery DB"],
@@ -43,7 +31,7 @@ export const portfolioItems = [
     codelink: "https://github.com/Final-App/trail-blazer"
 },
 {
-    id: 4,
+    id: 3,
     name: "Dinner and a Show",
     language: ["JS", "HTML", "CSS"],
     tech: ["jQuery", "Bulma", "Materialize", "TVMaze API", "Zomato API"],
@@ -54,7 +42,7 @@ export const portfolioItems = [
     codelink: "https://github.com/group-6-project-1/Dinner-and-a-show"
 },
 {
-    id: 5,
+    id: 4,
     name: "MERN Google Books Search",
     language: ["JS", "HTML", "CSS"],
     tech: ["React", "Bootsrap", "Axios", "Google Books API"],
@@ -65,14 +53,26 @@ export const portfolioItems = [
     codelink: "https://github.com/niceynice/mern-google-books-search"
 },
 {
-    id: 6,
-    name: "Fitness Tracker",
+    id: 5,
+    name: "People Directory",
     language: ["JS", "HTML", "CSS"],
-    tech: ["Mongo", "MongoDB Atlas", "Heroku"],
-    description: "Fitness Tracker",
-    img: fitnesstracker300img,
-    deployedlink: "https://pure-garden-02648.herokuapp.com/?id=60245bce72ca820015b6c5f2",
+    tech: ["React", "Bootstrap", "Random User Generator API"],
+    description: "A people directory with sorting and searching functionality.",
+    img: peopledirectory300img,
+    deployedlinkImg: github120img,
+    deployedlink: "https://niceynice.github.io/19-React-Homework-Employee-Directory/",
     codelinkImg: github120img,
-    codelink: "https://github.com/niceynice/17-NoSQL-Workout-Tracker"
+    codelink: "https://github.com/niceynice/19-React-Homework-Employee-Directory"
 },
+// {
+//     id: 6,
+//     name: "Fitness Tracker",
+//     language: ["JS", "HTML", "CSS"],
+//     tech: ["Mongo", "MongoDB Atlas", "Heroku"],
+//     description: "Fitness Tracker",
+//     img: fitnesstracker300img,
+//     deployedlink: "https://pure-garden-02648.herokuapp.com/?id=60245bce72ca820015b6c5f2",
+//     codelinkImg: github120img,
+//     codelink: "https://github.com/niceynice/17-NoSQL-Workout-Tracker"
+// },
 ]
