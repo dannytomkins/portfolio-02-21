@@ -1,6 +1,9 @@
 import danny1000img from "../img/danny1000.jpg"
 import github120img from "../img/github120.png"
-import linkedin256 from "../img/linkedin256.png"
+import linkedin256img from "../img/linkedin256.png"
+import email256img from "../img/email256.png"
+import resume256img from "../img/resume256.png"
+import resume from "../img/dtomkins_resume_05-21.pdf"
 
 
 export const aboutItems =
@@ -11,6 +14,10 @@ export const aboutItems =
         intro2: "a Full Stack Web Developer.",
         githubImg: github120img,
         githubLink: "https://github.com/niceynice",
-        linkedinImg: linkedin256,
-        linkedinLink: "https://www.linkedin.com/in/dannytomkins/"
+        linkedinImg: linkedin256img,
+        linkedinLink: "https://www.linkedin.com/in/dannytomkins/",
+        emailImg: email256img,
+        emailLink: "mailto:tomkinsdan@gmail.com",
+        resumeImg: resume256img,
+        resume: resume
     }
