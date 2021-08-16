@@ -4,6 +4,7 @@ import dinnerandashow300img from "../img/dinnerandashow300.jpg"
 import fitnesstracker300img from "../img/fitnesstracker300.jpg"
 import brewhopper300img from "../img/brewhopper300.jpg"
 import merngooglebooks300img from "../img/merngooglebooks300.jpg"
+import bookclub300 from "../img/bookclub300.jpg"
 import github120img from "../img/github120.png"
 
 
@@ -30,17 +31,17 @@ export const portfolioItems = [
     codelinkImg: github120img,
     codelink: "https://github.com/Final-App/trail-blazer"
 },
-{
-    id: 3,
-    name: "Dinner and a Show",
-    language: ["JS", "HTML", "CSS"],
-    tech: ["jQuery", "Bulma", "Materialize", "TVMaze API", "Zomato API"],
-    description: "Stuck inside? Bored? Quarantine got you down? Dinner and a Show is an app designed for our current lifestyle of seeking food and immediate entertainment. Enter your city and it will display the top restaurants in your area and the perfect tv show related to that cuisine!",
-    img: dinnerandashow300img,
-    deployedlink: "https://group-6-project-1.github.io/Dinner-and-a-show/",
-    codelinkImg: github120img,
-    codelink: "https://github.com/group-6-project-1/Dinner-and-a-show"
-},
+// {
+//     id: 3,
+//     name: "Dinner and a Show",
+//     language: ["JS", "HTML", "CSS"],
+//     tech: ["jQuery", "Bulma", "Materialize", "TVMaze API", "Zomato API"],
+//     description: "Stuck inside? Bored? Quarantine got you down? Dinner and a Show is an app designed for our current lifestyle of seeking food and immediate entertainment. Enter your city and it will display the top restaurants in your area and the perfect tv show related to that cuisine!",
+//     img: dinnerandashow300img,
+//     deployedlink: "https://group-6-project-1.github.io/Dinner-and-a-show/",
+//     codelinkImg: github120img,
+//     codelink: "https://github.com/group-6-project-1/Dinner-and-a-show"
+// },
 {
     id: 4,
     name: "MERN Google Books Search",
@@ -75,4 +76,15 @@ export const portfolioItems = [
 //     codelinkImg: github120img,
 //     codelink: "https://github.com/niceynice/17-NoSQL-Workout-Tracker"
 // },
+{
+    id: 7,
+    name: "Book Club",
+    language: ["JS", "HTML", "CSS"],
+    tech: ["Node.js", "Express", "React", "Redux", "Mongoose", "JSON Web Token", "bcrypt", "request", "Bootstrap", "Gravitar"], 
+    description: "Currently in development. Check out the progress!",
+    img: bookclub300, 
+    deployedlink: "",
+    codelinkImg: github120img,
+    codelink: "https://github.com/niceynice/book-club"
+},
 ]
