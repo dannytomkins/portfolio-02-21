@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.a4848988.chunk.css",
-    "main.js": "/static/js/main.00814459.chunk.js",
-    "main.js.map": "/static/js/main.00814459.chunk.js.map",
+    "main.css": "/static/css/main.6be7fb0e.chunk.css",
+    "main.js": "/static/js/main.6249d077.chunk.js",
+    "main.js.map": "/static/js/main.6249d077.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.402003f7.js",
     "runtime-main.js.map": "/static/js/runtime-main.402003f7.js.map",
     "static/js/2.2a6ec8d1.chunk.js": "/static/js/2.2a6ec8d1.chunk.js",
@@ -10,8 +10,9 @@
     "static/js/3.cb7b7b8e.chunk.js": "/static/js/3.cb7b7b8e.chunk.js",
     "static/js/3.cb7b7b8e.chunk.js.map": "/static/js/3.cb7b7b8e.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.a4848988.chunk.css.map": "/static/css/main.a4848988.chunk.css.map",
+    "static/css/main.6be7fb0e.chunk.css.map": "/static/css/main.6be7fb0e.chunk.css.map",
     "static/js/2.2a6ec8d1.chunk.js.LICENSE.txt": "/static/js/2.2a6ec8d1.chunk.js.LICENSE.txt",
+    "static/media/bookclub300.8063162a.jpg": "/static/media/bookclub300.8063162a.jpg",
     "static/media/danny1000.600117ad.jpg": "/static/media/danny1000.600117ad.jpg",
     "static/media/dinnerandashow300.313d5540.jpg": "/static/media/dinnerandashow300.313d5540.jpg",
     "static/media/dtomkins_resume_05-21.339689df.pdf": "/static/media/dtomkins_resume_05-21.339689df.pdf",
@@ -23,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.402003f7.js",
     "static/js/2.2a6ec8d1.chunk.js",
-    "static/css/main.a4848988.chunk.css",
-    "static/js/main.00814459.chunk.js"
+    "static/css/main.6be7fb0e.chunk.css",
+    "static/js/main.6249d077.chunk.js"
   ]
 }
