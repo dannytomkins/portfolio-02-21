@@ -81,7 +81,7 @@ export const portfolioItems = [
     name: "Book Club",
     language: ["JS", "HTML", "CSS"],
     tech: ["Node.js", "Express", "React", "Redux", "Mongoose", "JSON Web Token", "bcrypt", "request", "Bootstrap", "Gravitar"], 
-    description: "Currently in development. Check out the progress!",
+    description: "Currently in development. Take a look at the progress!",
     img: bookclub300, 
     deployedlink: "",
     codelinkImg: github120img,

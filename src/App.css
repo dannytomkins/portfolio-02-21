@@ -236,6 +236,17 @@ button:hover {
     transform: scale(1.05)
 }
 
+.portfoliocard ul {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+}
+
+.portfoliocard li {
+    padding: 5px;
+    width: fit-content;
+}
+
 .card-header {
     position: sticky;
     width: 100%;

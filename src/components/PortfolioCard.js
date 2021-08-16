@@ -29,6 +29,14 @@ function PortfolioCard(props) {
             <img src={props.img}></img>
             <h4>{props.name}</h4>
             <p>{props.description}</p>
+            <ul>
+                    <li>
+                    <a href={props.deployedlink} target="_blank"><button>Check it out!</button></a>
+                    </li>
+                    <li>
+                    <a href={props.codelink} target="_blank"><button>GitHub</button></a>
+                    </li>
+                </ul>
         </div>
         <Modal props={props} open={isOpen} onClose={() => setIsOpen(false)}>
                 {/* Fancy Modal */}
