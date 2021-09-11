@@ -22,6 +22,17 @@ export const portfolioItems = [
 },
 {
     id: 2,
+    name: "Book Club",
+    language: ["JS", "HTML", "CSS"],
+    tech: ["Node.js", "Express", "React", "Redux", "Mongoose", "JSON Web Token", "bcrypt", "request", "Bootstrap", "Gravitar"], 
+    description: "Currently in development. Take a look at the progress! Book Club, the app that helps you create or organize a book club. Sign up, create a profile, browse books, join a club, or make you own!",
+    img: bookclub300, 
+    deployedlink: "https://book-club-mern.herokuapp.com/",
+    codelinkImg: github120img,
+    codelink: "https://github.com/niceynice/book-club"
+},
+{
+    id: 3,
     name: "Brew Hopper",
     language: ["JS", "HTML", "CSS"],
     tech: ["React", "Node.js", "Express", "Sequelize", "Passport.js", "Axios", "Material-UI", "Open Brewery DB"],
@@ -32,7 +43,7 @@ export const portfolioItems = [
     codelink: "https://github.com/Final-App/trail-blazer"
 },
 // {
-//     id: 3,
+//     id: 4,
 //     name: "Dinner and a Show",
 //     language: ["JS", "HTML", "CSS"],
 //     tech: ["jQuery", "Bulma", "Materialize", "TVMaze API", "Zomato API"],
@@ -43,7 +54,7 @@ export const portfolioItems = [
 //     codelink: "https://github.com/group-6-project-1/Dinner-and-a-show"
 // },
 {
-    id: 4,
+    id: 5,
     name: "MERN Google Books Search",
     language: ["JS", "HTML", "CSS"],
     tech: ["React", "Bootsrap", "Axios", "Google Books API"],
@@ -54,7 +65,7 @@ export const portfolioItems = [
     codelink: "https://github.com/niceynice/mern-google-books-search"
 },
 {
-    id: 5,
+    id: 6,
     name: "People Directory",
     language: ["JS", "HTML", "CSS"],
     tech: ["React", "Bootstrap", "Random User Generator API"],
@@ -66,7 +77,7 @@ export const portfolioItems = [
     codelink: "https://github.com/niceynice/19-React-Homework-Employee-Directory"
 },
 // {
-//     id: 6,
+//     id: 7,
 //     name: "Fitness Tracker",
 //     language: ["JS", "HTML", "CSS"],
 //     tech: ["Mongo", "MongoDB Atlas", "Heroku"],
@@ -76,15 +87,4 @@ export const portfolioItems = [
 //     codelinkImg: github120img,
 //     codelink: "https://github.com/niceynice/17-NoSQL-Workout-Tracker"
 // },
-{
-    id: 7,
-    name: "Book Club",
-    language: ["JS", "HTML", "CSS"],
-    tech: ["Node.js", "Express", "React", "Redux", "Mongoose", "JSON Web Token", "bcrypt", "request", "Bootstrap", "Gravitar"], 
-    description: "Currently in development. Take a look at the progress!",
-    img: bookclub300, 
-    deployedlink: "",
-    codelinkImg: github120img,
-    codelink: "https://github.com/niceynice/book-club"
-},
 ]
