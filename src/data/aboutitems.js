@@ -13,7 +13,7 @@ export const aboutItems =
         intro1: "Hi! I'm Danny Tomkins,",
         intro2: "a Full Stack Web Developer.",
         githubImg: github120img,
-        githubLink: "https://github.com/niceynice",
+        githubLink: "https://github.com/dannytomkins",
         linkedinImg: linkedin256img,
         linkedinLink: "https://www.linkedin.com/in/dannytomkins/",
         emailImg: email256img,

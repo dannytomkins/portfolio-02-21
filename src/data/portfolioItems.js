@@ -29,7 +29,7 @@ export const portfolioItems = [
     img: bookclub300, 
     deployedlink: "https://book-club-mern.herokuapp.com/",
     codelinkImg: github120img,
-    codelink: "https://github.com/niceynice/book-club"
+    codelink: "https://github.com/dnnytomkins/book-club"
 },
 {
     id: 3,
@@ -62,7 +62,7 @@ export const portfolioItems = [
     img: merngooglebooks300img,
     deployedlink: "https://boiling-mesa-68358.herokuapp.com/",
     codelinkImg: github120img,
-    codelink: "https://github.com/niceynice/mern-google-books-search"
+    codelink: "https://github.com/dannytomkins/mern-google-books-search"
 },
 {
     id: 6,
@@ -72,9 +72,9 @@ export const portfolioItems = [
     description: "A people directory with sorting and searching functionality.",
     img: peopledirectory300img,
     deployedlinkImg: github120img,
-    deployedlink: "https://niceynice.github.io/19-React-Homework-Employee-Directory/",
+    deployedlink: "https://dannytomkins.github.io/19-React-Homework-Employee-Directory/",
     codelinkImg: github120img,
-    codelink: "https://github.com/niceynice/19-React-Homework-Employee-Directory"
+    codelink: "https://github.com/dannytomkins/19-React-Homework-Employee-Directory"
 },
 // {
 //     id: 7,
