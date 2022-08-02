@@ -2,6 +2,7 @@ import peopledirectory300img from "../img/peopledirectory300.jpg"
 import pantry300 from "../img/pantry300.jpg"
 import dinnerandashow300img from "../img/dinnerandashow300.jpg"
 import fitnesstracker300img from "../img/fitnesstracker300.jpg"
+import emily300img from "../img/emily300.png"
 import brewhopper300img from "../img/brewhopper300.jpg"
 import merngooglebooks300img from "../img/merngooglebooks300.jpg"
 import bookclub300 from "../img/bookclub300.jpg"
@@ -42,17 +43,17 @@ export const portfolioItems = [
     codelinkImg: github120img,
     codelink: "https://github.com/Final-App/trail-blazer"
 },
-// {
-//     id: 4,
-//     name: "Dinner and a Show",
-//     language: ["JS", "HTML", "CSS"],
-//     tech: ["jQuery", "Bulma", "Materialize", "TVMaze API", "Zomato API"],
-//     description: "Stuck inside? Bored? Quarantine got you down? Dinner and a Show is an app designed for our current lifestyle of seeking food and immediate entertainment. Enter your city and it will display the top restaurants in your area and the perfect tv show related to that cuisine!",
-//     img: dinnerandashow300img,
-//     deployedlink: "https://group-6-project-1.github.io/Dinner-and-a-show/",
-//     codelinkImg: github120img,
-//     codelink: "https://github.com/group-6-project-1/Dinner-and-a-show"
-// },
+{
+    id: 4,
+    name: "Emily Breidenbach - Portfolio",
+    language: ["JS", "HTML", "CSS"],
+    tech: ["React"],
+    description: "Emily Breidenbach's art and teaching portfolio page. Responsive design. Built with React",
+    img: emily300img,
+    deployedlink: "https://dannytomkins.github.io/emily-breidenbach-portfolio/",
+    codelinkImg: github120img,
+    codelink: "https://github.com/dannytomkins/emily-breidenbach-portfolio"
+},
 {
     id: 5,
     name: "MERN Google Books Search",
