@@ -48,7 +48,7 @@ export const portfolioItems = [
     name: "Emily Breidenbach - Portfolio",
     language: ["JS", "HTML", "CSS"],
     tech: ["React"],
-    description: "Emily Breidenbach's art and teaching portfolio page. Responsive design. Built with React",
+    description: "Emily Breidenbach's art and teaching portfolio page. Responsive design. Built with React.",
     img: emily300img,
     deployedlink: "https://dannytomkins.github.io/emily-breidenbach-portfolio/",
     codelinkImg: github120img,
