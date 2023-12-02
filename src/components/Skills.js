@@ -9,7 +9,16 @@ function Skills() {
                     JavaScript
                 </li>
                 <li>
-                    HTML / CSS
+                    Java
+                </li>
+                <li>
+                    C#
+                </li>
+                <li>
+                    HTML
+                </li>
+                <li>
+                    CSS
                 </li>
                 <li>
                     React
@@ -24,19 +33,10 @@ function Skills() {
                     Git
                 </li>
                 <li>
-                    Express.js
-                </li>
-                <li>
-                    ORM - Sequelize, Mongoose
-                </li>
-                <li>
                     MySQL
                 </li>
                 <li>
                     MongoDB
-                </li>
-                <li>
-                    Heroku
                 </li>
                 <li>
                     Adobe Creative Cloud
