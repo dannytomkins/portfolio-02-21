@@ -31,6 +31,18 @@ export const portfolioItems = [
     codelink: "https://github.com/dannytomkins/emily-breidenbach-portfolio"
 },
 {
+    id: 7,
+    name: "Sketches-2023",
+    language: ["JS", "HTML", "CSS"],
+    tech: ["React", "p5.js", "p5 sound library", "react-router"],
+    description: "sketches-2023 presents a collection of p5.js sketches created in 2023, each 1080 x 1080 pixels accessible through a React-based web application with certain sketches responding to various user imput. p5.js is a JavaScript library that simplifies creative coding, enabling artists to seamlessly blend interactivity and visuals to be accessed on a web browser. For optimal viewing, desktop screens are recommended due to the sketch size, ensuring the best appreciation of details and overall experience.",
+    img: peopledirectory300img,
+    deployedlinkImg: github120img,
+    deployedlink: "https://res.cloudinary.com/dinqd8kuj/image/upload/v1700862358/dannytomkinscom/sketches-2023-1_feq9cc.jpg",
+    codelinkImg: github120img,
+    codelink: "https://github.com/dannytomkins/sketches_1672552800-1704088799"
+},
+{
     id: 2,
     name: "Book Club",
     language: ["JS", "HTML", "CSS"],
@@ -70,9 +82,8 @@ export const portfolioItems = [
     tech: ["React", "Bootstrap", "Random User Generator API"],
     description: "A people directory with sorting and searching functionality.",
     img: peopledirectory300img,
-    deployedlinkImg: github120img,
     deployedlink: "https://dannytomkins.github.io/19-React-Homework-Employee-Directory/",
     codelinkImg: github120img,
     codelink: "https://github.com/dannytomkins/19-React-Homework-Employee-Directory"
-},
+}
 ]
